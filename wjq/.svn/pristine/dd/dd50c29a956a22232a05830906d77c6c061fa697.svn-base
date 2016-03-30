@@ -1,0 +1,95 @@
+﻿/* CSS Document */
+p, td, tr, input, button
+{
+	font-size: 12px;
+	font-family:Arial, "宋体";
+	color:#4a4a4a;
+}
+div{
+	font-size: 12px;
+	font-family:Arial, "宋体";
+	color:#1A1A1A;
+	float:left;
+	line-height:18px;
+}
+.topDiv{
+    width:1003px;
+    height:212px;
+	background-image:url(../img/hwvindex/topBg.jpg);
+}
+.tittleFn p{
+	text-indent:2em;
+}
+.Hdiv{width:850px; margin:10px 0px 0px 70px; _margin:10px 0px 0px 35px;}
+.Kdiv{
+	width:196px;
+	height:286px;
+	background-image:url(../img/hwvindex/Kbg.jpg);
+	margin-left:15px; _margin-left:9px;
+}
+.KdivTop{
+	width:170px;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-align:center;
+	margin:20px 0px 0px 10px;
+	_margin:20px 0px 0px 5px;
+}
+.KdivMid{
+    margin:10px 0px 0px 0px;
+	_margin:10px 0px 0px 9px;
+	float:none;
+}
+.KdivDown{
+    margin:10px 0px 0px 18px;
+	_margin:10px 0px 0px 9px;
+	font-size:12px;
+	color:#FFFFFF;
+	width:170px;
+}
+.Btn{
+    cursor:pointer;
+	text-align:center;
+	margin-left:50px;
+	_margin-left:25px;
+}
+.tittleFn{
+    margin:15px auto 0px auto;
+    width:800px;
+    line-height:20px;
+}
+.tittleT{
+    margin:0px 0px 0px 65px;
+	_ margin:0px 0px 0px 32px;
+}
+.downBg{
+	width:1003px;
+	background-image:url(../img/hwvindex/downBg.jpg);
+	font-size:12px;
+	color:#A03F04;
+	text-align:center;
+	line-height:20px;
+	padding-top:20px;
+}
+/*文章连接 */
+
+a.xTabcon:link {
+	font-size: 12px; COLOR: #4a4a4a; TEXT-DECORATION: none;	
+}
+a.xTabcon:visited {
+	font-size: 12px; COLOR: #4a4a4a; TEXT-DECORATION: none;
+	
+}
+a.xTabcon:hover {
+	font-size: 12px; COLOR: #B90404; TEXT-DECORATION: none;
+}
+a.xTabcon:active {
+	font-size: 12px; COLOR: #4a4a4a; TEXT-DECORATION: none;
+}
+.detail{
+	color: #34383c;
+}
+.detail:HOVER {
+	color: blue;
+}

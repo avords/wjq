@@ -1,0 +1,12 @@
+/*¡Ù—‘∞Â*/
+.pull-right {position: fixed;top: 300px;right: 0px;}
+div #back{ POSITION:fixed; left:0; top:0; width:100%;height:100%; background-color:gray;z-index:70;opacity:0.5}
+div #win{ POSITION:fixed; left:50%; top:50%;overflow:auto;border-radius:10px; width:600px; height:350px; margin-left:-300px; margin-top:-200px;background-color:#EBF4FB;text-align:center;z-index:90;opacity:1}
+div #winTitle{background-color:#7495F5;width:600px; height:40px;float: left;vertical-align: middle;}
+#winSpan{font-size:20px;font-weight:900;color:white;vertical-align: middle;}
+#winTable{width:80%;height:70%;margin: 0px auto;}
+#winTable #title{width:300px;height:25px;font-size: 13px;border-radius:2px;}
+#winTable #content{width:300px;font-size: 13px;resize:none;border-radius:2px;}
+#winTable span{font-size: 15px;font-weight:500;}
+#win #butt1{background-color:#EDE9CB;margin-left:50px;}
+#win #butt1 span{color:black;font-size: 12px;}

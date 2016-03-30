@@ -1,0 +1,25 @@
+/* ----- 登录注册 ----- */
+.box { height:664px; border-bottom:1px solid #fff; background: url(../img/login_tc.jpg) repeat-x bottom;}
+.wrap { position:relative; height:660px; width: 1000px; margin: 0 auto; background:url(../img/login_bg.png) no-repeat center bottom ;}
+.login-wrap{ min-height:300px; padding:10px 25px; width:290px; position:absolute; border:3px solid #d3e1f0; background:#fff; top:40px; right:60px;}
+.login-wrap .title{ font-size:18px; margin-bottom:5px; line-height:42px; color:#0099cc; border-bottom:1px solid #ddd;}
+.login-wrap .title span{ font-size:14px; float:right; color:#999;}
+.login-wrap .title span a{  color:#3366ad;}
+
+.login-wrap .cont { padding:10px 0;}
+.login-wrap .cont .row{ padding:5px 0;}
+.login-wrap .cont .text-input{ font-size:14px; width:260px; border:1px solid #ddd; padding:10px;}
+.login-wrap .cont .remember{ margin-right:5px;}
+.login-wrap .cont .fix { padding:10px; }
+.login-wrap .cont .fix a{ color:#3366ad;}
+.login-wrap .cont .fix .find{ float:right;}
+.login-btn { width:100%; background:#ff9933; color:#fff; text-align:center; font-size:18px; border:0; padding:8px 0; transition:all .3s;}
+.login-btn:hover{ background:#f60; }
+.help-block {
+	display: block;
+	margin-top: 5px;
+	margin-bottom:0px;
+	color: #B94A48;
+	font-weight: bold;
+}
+

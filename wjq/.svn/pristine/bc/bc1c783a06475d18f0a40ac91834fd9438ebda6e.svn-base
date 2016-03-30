@@ -1,0 +1,9 @@
+INSERT INTO `cms_channel` (`object_id`, `position_code`, `parent_id`, `url`, `name`, `priority`, `is_display`, `is_blank`, `path`) VALUES (1, 'home', NULL, '#', '首页', 1, 2, 2, '#');
+INSERT INTO `cms_channel` (`object_id`, `position_code`, `parent_id`, `url`, `name`, `priority`, `is_display`, `is_blank`, `path`) VALUES (189, '200', NULL, '#', '中奥万事通', 2, 2, 2, '#');
+INSERT INTO `cms_channel` (`object_id`, `position_code`, `parent_id`, `url`, `name`, `priority`, `is_display`, `is_blank`, `path`) VALUES (190, '300', NULL, '#', '国外考察', 3, 2, 2, '#');
+INSERT INTO `cms_channel` (`object_id`, `position_code`, `parent_id`, `url`, `name`, `priority`, `is_display`, `is_blank`, `path`) VALUES (191, '400', NULL, '#', '出国留学', 4, 2, 2, '#');
+INSERT INTO `cms_channel` (`object_id`, `position_code`, `parent_id`, `url`, `name`, `priority`, `is_display`, `is_blank`, `path`) VALUES (192, '500', NULL, '#', '旅游度假', 5, 2, 2, '#');
+INSERT INTO `cms_channel` (`object_id`, `position_code`, `parent_id`, `url`, `name`, `priority`, `is_display`, `is_blank`, `path`) VALUES (193, '600', NULL, '#', '投资置产', 6, 2, 2, '#');
+INSERT INTO `cms_channel` (`object_id`, `position_code`, `parent_id`, `url`, `name`, `priority`, `is_display`, `is_blank`, `path`) VALUES (194, '700', NULL, '#', '当地服务', 7, 2, 2, '#');
+INSERT INTO `cms_channel` (`object_id`, `position_code`, `parent_id`, `url`, `name`, `priority`, `is_display`, `is_blank`, `path`) VALUES (195, '800', NULL, '#', '商品购销', 8, 2, 2, '#');
+INSERT INTO `cms_channel` (`object_id`, `position_code`, `parent_id`, `url`, `name`, `priority`, `is_display`, `is_blank`, `path`) VALUES (196, '900', NULL, '#', 'VIP家园', 9, 2, 2, '#');

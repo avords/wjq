@@ -1,0 +1,177 @@
+/* ----- 列表页 ----- */
+
+/* 焦点推荐 */
+.list-focus { margin-top: 20px; }
+.list-focus .pic { position: relative; width: 422px; height: 322px; overflow: hidden; float: left; }
+.list-focus .pic h3 { position: absolute; bottom: 1px; left: 1px; right: 1px; width: 90%; padding: 10px 5%; font-size: 18px; font-weight: normal; text-align: center; color: #fff; background: rgba(51,51,51,.7); }
+.list-focus img { border: 1px solid #ddd; transition: .3s; }
+.list-focus a:hover img { border: 1px solid #f00; }
+.list-focus .news { float: right; width: 550px; }
+.list-focus .news dt { margin-bottom: 15px; }
+.list-focus .news dt a { font-size: 24px; color: #f07a04; }
+.list-focus .news dd { margin-bottom: 15px; font-size: 15px; color: #999; }
+.list-focus .news ul { }
+.list-focus .news ul li { padding-left: 20px; font-size: 16px; line-height: 44px; border-bottom: 1px solid #dfdfdf; background: url(../img/dian.jpg) 5px center no-repeat; }
+.list-focus .news ul li span { float: right; font-size: 12px; color: #999; margin-right: 5px; }
+.list-inner { margin-top: 20px; }
+/* 列表 */
+.listCont { width: 730px; float: left; }
+.listCont .sort { background: #f9f9f9; border-top: 1px solid #69c; }
+.listCont .sort span { position: relative; display: inline-block; padding: 10px 30px; color: #fff; font-size: 16px; background: #69c; }
+.listCont .sort .triangle { position: absolute; bottom: 0; left: 50%; margin-left: -6px; width: 0; height: 0; font-size: 0; border: 6px solid transparent; border-bottom: 6px solid #fff; }
+.listCont .text { border-bottom: 1px dotted #ccc; padding: 22px 0; }
+.listCont .text img { float: right; margin-left: 15px; }
+.listCont .text dt { font-size: 18px; margin-bottom: 8px; }
+.listCont .text dt span { float: right; font-size: 12px; color: #999; line-height: 28px; }
+.listCont .text dd { font-size: 14px; color: #999; margin-bottom: 5px; }
+/* 侧栏 */
+.listSide { width: 250px; float: right; }
+.listSide .title { padding: 6px 10px; background: #69c; color: #fff; font-size: 16px; }
+.listSide .title span { float: right; font-size: 12px; line-height: 28px; }
+.listSide .title2 { padding: 6px 10px; background: #fcfcfc; color: #468dc8; font-size: 16px; border: 1px solid #dfdfdf; border-bottom: none; }
+.listSide .title2 span { float: right; font-size: 12px; line-height: 28px; }
+.package { margin-bottom: 15px; }
+.package .tc-bd { border: 1px solid #dfdfdf; background: #fcfcfc; padding: 10px; padding-right: 5px; }
+.package .tc-bd li { clear: both; overflow: hidden; padding: 10px 0; }
+.package .tc-bd img { float: left; }
+.package .tc-bd dl { float: right; width: 160px; }
+.package .tc-bd dt { }
+.package .tc-bd dd { font-size: 16px; color: #f60; }
+/* 二维码 */
+.telQR { height: 200px; margin-bottom: 15px; border: 1px solid #dfdfdf; background: #fcfcfc; }
+.telQR .tel { padding: 15px 0 15px 15px; }
+.telQR .QR { padding: 0 0 10px 15px; }
+.telQR .QR img { float: left; margin-right: 10px; }
+.telQR .QR .tit { display: block; font-size: 17px; color: #333; margin-bottom: 10px; }
+/* 一周排行 */
+.rank { margin-bottom: 15px; }
+.rank .cont { padding: 10px; border: 1px solid #dfdfdf; background: #fcfcfc; }
+.rank .cont a { padding: 4px 0; display: block; font-size: 14px; width: 230px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.rank .cont a i { font-size: 15px; padding-right: 10px; color: #3caad4; }
+.rank .cont a:hover { text-decoration: none; }
+/* 聊聊吧 */
+.talk { margin-bottom: 15px; }
+.talk .cont { padding: 10px; border: 1px solid #dfdfdf; }
+.talk .cont li { padding: 10px 0; }
+.talk .cont li p { margin-bottom: 5px; }
+.talk .cont li span { color: #999; }
+.talk .cont li i { font-style: normal; }
+.Pagination { text-align: center; padding-top: 10px; }
+/* -----详细页 ----- */
+.pageCont { width: 730px; float: left; }
+.crumb { padding: 10px; background: #f9f9f9; color: #999; }
+.pageText .title { text-align: center; margin-bottom: 20px; }
+.pageText .title h1 { font-size: 28px; font-weight: normal; padding: 20px 0 5px; }
+.pageText .title p { color: #999; }
+.pageText .tag { border: 1px solid #eee; padding: 10px 0 10px 10px; margin-bottom: 20px; line-height: 24px; }
+.pageText .tag em { font-style: normal; }
+.pageText .tag em a { color: #3366ad; }
+.pageText .tag span { float: right; line-height: 18px; }
+.pageText .article { padding: 10px; }
+.pageText .article p { font-size: 15px; text-align: justify; line-height: 24px; text-indent: 2em; margin-bottom: 20px; }
+.share { margin-bottom: 10px; }
+.share span { float: left; line-height: 26px; padding-left: 10px; }
+.same { border: 1px solid #e5e5e5; padding: 15px 0 15px 20px; margin-bottom: 15px; }
+.same h3 { color: #3366ad; font-size: 15px; font-weight: normal; }
+.same li { float: left; width: 32%; margin-right: 1%; font-size: 15px; line-height: 24px; }
+.next li { display: inline-block; width: 49%; }
+.next li a { color: #3366ad; }
+.pageBtn { text-align: center; padding-top: 30px; margin-bottom: 50px; }
+/* -----出国留学页 ----- */
+
+.study-flag { margin: 20px 0; background: #f9f9f9; border: 1px solid #ebebeb; }
+.study-flag dt { float: left; padding: 20px 30px; color: #3366ad; font-size: 24px; border-right: 1px solid #ebebeb; line-height: 30px; }
+.study-flag dt img { float: left; margin-right: 15px; }
+.study-flag dd { float: left; padding-left: 20px; }
+.study-flag dd a { width: 80px; height:60px; float:left;padding-top: 10px; display: inline-block; text-align: center; text-decoration:none; border-left:1px solid #f9f9f9; border-right:1px solid #f9f9f9;}
+.study-flag dd a:hover { background: #fff;border-left:1px solid #ebebeb; border-right:1px solid #ebebeb; }
+.focus-pic { width: 300px; float: left; margin-right: 25px; }
+.focus-pic ul { margin-top: 5px; border-left: 1px solid #ebebeb; border-top: 1px solid #ebebeb; }
+.focus-pic ul li { margin-left: -1px; width: 50%; display: inline-block; margin-right: -3px; border-right: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb; }
+.focus-pic ul li a { display: block; line-height: 50px; font-size: 15px; text-decoration: none; }
+.focus-pic ul li a:hover { background: #f9f9f9; color: #69c; }
+.focus-pic ul li i { float: left; width: 28px; height: 28px; margin: 10px 10px 0 20px; }
+.focus-pic ul li i.icon1 { background: url(../img/study_focus_icon1.png) no-repeat center; }
+.focus-pic ul li i.icon2 { background: url(../img/study_focus_icon2.png) no-repeat center; }
+.focus-pic ul li i.icon3 { background: url(../img/study_focus_icon3.png) no-repeat center; }
+.focus-pic ul li i.icon4 { background: url(../img/study_focus_icon4.png) no-repeat center; }
+.focus-news { width: 405px; float: left; }
+.focus-news dt { line-height: 48px; }
+.focus-news dt a { font-size: 22px; color: #f07a04; }
+.focus-news dd { padding-bottom: 10px; font-size: 13px; color: #999; line-height: 24px; border-bottom: 1px solid #dfdfdf; }
+.focus-news ul li { padding-left: 20px; font-size: 14px; line-height: 44px; border-bottom: 1px solid #dfdfdf; background: url(../img/dian.jpg) 5px center no-repeat; }
+.focus-hot { float: right; width: 250px; }
+.focus-hot .title { padding: 6px 10px; background: #69c; color: #fff; font-size: 16px; }
+.focus-hot .title span { float: right; font-size: 12px; line-height: 28px; }
+.university { margin-bottom: 15px; }
+.university .tc-bd { border: 1px solid #dfdfdf; background: #fcfcfc; padding: 10px; padding-right: 5px; }
+.university .tc-bd li { clear: both; overflow: hidden; padding: 10px 0; }
+.university .tc-bd img { float: left; width: 52px; height: 52px; }
+.university .tc-bd dl { float: right; width: 170px; }
+.university .tc-bd dt { font-size: 14px; }
+.university .tc-bd dd { color: #999; line-height: 16px; }
+.study-list { border-bottom: 1px dotted #ccc; padding: 20px 0; clear: both; overflow: hidden; }
+.study-list img { float: left; margin-right: 20px; }
+.study-list dl { float: left; width: 500px; }
+.study-list dt { font-size: 16px; margin-bottom: 8px; }
+.study-list dt i { display: inline-block; height: 14px; overflow: hidden; background: url(../img/star_icon.png) no-repeat; }
+.study-list dt i.star-bg { margin-left: 15px; width: 70px; position: relative; background-position: 0 -14px; }
+.study-list dt i.star-front { position: absolute; background-position: 0 -1px; }
+.study-list dd { font-size: 14px; margin-bottom: 5px; line-height: 24px; }
+.study-list dd span { float: left; color: #aaa; }
+.org-links { float: right; width: 90px; }
+.org-links a { display: block; text-align: center; margin-right: 0; }
+.org-links .comment { font-size: 14px; color: #3caad4; margin-bottom: 6px; line-height: 30px; }
+/* 一周排行 */
+.rank2 { margin-bottom: 15px; }
+.rank2 .cont { padding: 10px; border: 1px solid #dfdfdf; background: #fcfcfc; }
+.rank2 .cont a { padding: 8px 0 8px 15px; display: block; font-size: 14px; width: 215px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; border-bottom:1px dashed #dfdfdf; background:url(../img/dian.jpg) 5px center no-repeat;}
+.rank2 .cont a:last-child{ border-bottom:none; }
+.rank2 .cont a i { font-size: 15px; padding-right: 10px; color: #3caad4; }
+.rank2 .cont a:hover { text-decoration: none; }
+
+
+
+
+
+/* -----机构介绍 ----- */
+.angency-head{ margin-top:20px;margin-bottom:20px;}
+.angency-head .pic{ float:left; margin-right:20px;}
+.angency-head .pic img{ padding:1px; border:1px solid #ddd;}
+.angency-head .describe{ float:left;}
+.angency-head .describe h1{ font-size:22px; padding:5px 0 12px;; font-weight:normal;}
+.angency-head .describe dl{ font-size:14px; }
+.angency-head .describe dt{ margin-bottom:10px;}
+.angency-head .describe dt i { display: inline-block; margin-right:30px; height: 14px; overflow: hidden; background: url(../img/star_icon.png) no-repeat; }
+.angency-head .describe dt i.star-bg { width: 70px; position: relative; background-position: 0 -14px; }
+.angency-head .describe dt i.star-front { position: absolute; background-position: 0 -1px; }
+.angency-head .describe dd{}
+.angency-head .describe span{ padding-right:5px; color:#999;}
+.angency-head .button{ padding:18px 0 0 45px; }
+.angency-head .button a{ font-size:16px!important;}
+.why{ height: 280px; margin-bottom: 15px; border: 1px solid #dfdfdf; background: #fcfcfc; }
+.why h3{ color:#6699cc; font-size:18px; font-weight:normal; padding:15px;}
+
+.angency-box{ padding:10px; margin-bottom:20px; border:1px solid #ebebeb;}
+.angency-title{ font-size:22px; color:#0099cc; padding-left:10px; padding-bottom:10px; margin-bottom:15px; border-bottom:1px dashed #ddd;}
+.angency-title span{ float:right;}
+.angency-cont { }
+.angency-cont dl{ padding:10px; margin-bottom:10px; font-size:14px; line-height:24px; border-bottom:1px dashed #ddd;}
+.angency-cont dl:last-child{ border-bottom:none;}
+.angency-cont dt{ color:#999; float:left; width:80px;}
+.angency-cont dd{ margin-left:80px; }
+.angency-cont dd span{ display:inlne-block; padding:0 20px 0 20px; background:url(../img/agency_ts_icon.png) no-repeat left center;}
+
+.dianping {  }
+.dianping .dp-list { border-bottom:1px dashed #ccc; padding:20px 0;}
+.dianping .dp-list img { float:left; margin-right: 20px; width:60px; height:60px; border-radius:50%; transition:all .3s;}
+.dianping .dp-list img:hover{ opacity:.8;}
+.dianping dl { float:left; width:620px; }
+.dianping dt { font-size: 15px; margin-bottom: 8px; clear:both; overflow:hidden; }
+.dianping dt i { float:left; display: inline-block; height: 14px; overflow: hidden; background: url(../img/star_icon.png) no-repeat; }
+.dianping dt i.star-bg { margin-right: 15px; width: 70px; position: relative; background-position: 0 -14px; }
+.dianping dt i.star-front { position: absolute; background-position: 0 -1px; }
+.dianping dt span {float:left; padding-left:20px; font-size:12px;}
+.dianping .dp-list dd { margin-bottom:10px;}
+
+.dianping .dp-list dd img {margin-right: 10px; width:80px; height:80px; border-radius:0; }

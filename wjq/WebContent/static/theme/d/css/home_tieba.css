@@ -1,0 +1,91 @@
+/* ----- 有话说说-贴吧 ----- */
+.box { padding: 15px 0; background: url(../img/tieba_bg.jpg) no-repeat center top; }
+.borderNone { border: none!important; }
+.Pagination { padding-top: 10px; text-align: center; }
+.tieba { width: 1000px; margin: 0 auto; }
+.tieba .head { margin-bottom: 10px; padding: 20px; border: 1px solid #dfdfdf; background: #fff; }
+.tieba .head .hd-title { float: left; }
+.tieba .head .hd-title h3 { font-size: 24px; color: #09addb; font-weight: normal; }
+.tieba .head .hd-title h3 i { float: left; display: inline-block; margin-right: 10px; width: 38px; height: 38px; background: url(../img/tieba_icon.png) no-repeat; }
+.tieba .head .hd-title h3 small { padding-left: 30px; font-size: 16px; color: #a0b4d0; font-style: italic; }
+.tieba .head .hd-title h4 { }
+.tieba .head .hd-btn { float: right; width: 320px; }
+.tieba .head .hd-btn .text { float: right; display: inline-block; margin-right: 20px; font-size: 15px; line-height: 38px; color: #999; }
+.tieba .head .hd-btn .btn { float: right; color: #fff; margin: 0; padding: 6px 15px 6px 40px; font-size: 16px; background: #faa54a url(../img/tieba_icon.png) no-repeat 15px -192px; text-decoration: none; }
+.tieba .head .hd-btn .btn:hover { background: #f89427 url(../img/tieba_icon.png) no-repeat 15px -192px; }
+.tieba .body { border: 1px solid #dfdfdf; background: #f5f7fa; }
+/* 板块分类 */
+.tieba .category { border-bottom: 1px solid #dfdfdf; background: #edeef2; }
+.tieba .category ul { float: left; }
+.tieba .category ul li { float: left; background: url(../img/tieba_line.jpg) no-repeat right center; }
+.tieba .category ul li a { display: block; font-size: 16px; padding: 13px 30px; text-decoration: none; }
+.tieba .category ul li a:hover, .tieba .category ul li a.active { color: #fff; background: #09addb; }
+.tieba .category .tb-search { position: relative; float: right; margin: 10px 20px 0 0; width: 190px; height: 30px; border: 1px solid #dfdfdf; }
+.tieba .tb-searchKey { width: 130px; padding: 0 10px; border: 0; line-height: 28px; }
+.tieba .tb-searchBtn { position: absolute; padding: 0; border: 0; width: 40px; font-size: 14px; line-height: 28px; background: #f5f7fa url(../img/tieba_search.png) no-repeat center; border-left: 1px solid #dfdfdf; }
+.tieba .tb-searchBtn:hover { background: #f2f2f2 url(../img/tieba_search.png) no-repeat center; }
+.tieba .content { }
+.tieba .list { float: left; min-height: 600px; width: 780px; border-right: 1px solid #dfdfdf; background: #fff; }
+.tieba .list-type { padding: 20px 0; margin: 0 20px; border-bottom: 1px dashed #ddd; }
+.tieba .list-type li { float: left; margin: 0 6px; }
+.tieba .list-type li a { display: block; font-size: 14px; color: #999; padding: 5px 15px; border: 1px solid #ddd; text-decoration: none; }
+.tieba .list-type li a:hover, .tieba .list-type li a.active { border: 1px solid #09addb; color: #09addb; }
+.list-cont { padding: 20px 10px; margin: 0 20px; border-bottom: 1px dashed #ccc; }
+.list-cont:hover { background: #f5f7fa; }
+.list-cont .con-num { float: left; width: 70px; margin-left: -100% }
+.list-cont .con-num span { display: block; margin-top: 10px; width: 50px; height: 30px; background: url(../img/tieba_icon.png) no-repeat -50px -100px; text-align: center; line-height: 26px; }
+.list-cont .con-text { float: left; width: 100%; }
+.list-cont .con-text .in { margin: 0 200px 0 70px; }
+.list-cont .con-text h3 { font-size: 16px; font-weight: normal; }
+.list-cont .con-text h3 a { color: #09c; }
+.list-cont .con-text h3 a:hover { color: #f60; }
+.list-cont .con-text h3 span { padding-right: 10px; }
+.list-cont .con-text h3 span a:hover { text-decoration: none; }
+.list-cont .con-text p { padding: 5px 0; font-size: 13px; color: #999; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.list-cont .con-text p img { max-height: 80px; margin-right: 10px; }
+.list-cont .con-date { position: relative; float: left; width: 180px; margin-left: -180px; }
+.list-cont .con-date span { display: inline-block; position: absolute; width: 120px; height: 20px; color: #999; }
+.list-cont .con-date span.icon-author { top: 10px; padding-left: 20px; background: url(../img/tieba_icon.png) no-repeat -50px -148px; }
+.list-cont .con-date span.icon-rely { top: 30px; padding-left: 20px; background: url(../img/tieba_icon.png) no-repeat -50px -178px; }
+.list-cont .con-date span.icon-date { top: 30px; right: 0; width: 30px; }
+/* 侧栏 */
+.tieba .side { width: 195px; margin-right: 10px; float: right; }
+.side-tx { padding: 30px 0; border-bottom: 1px solid #ddd; clear: both; overflow: hidden; }
+.side-tx h4 { color: #369; line-height: 28px; }
+.side-tx p { color: #999; }
+.side-tx img { float: left; width: 80px; margin-right: 10px; }
+.notice { padding: 20px 0; margin-bottom: 30px; border-bottom: 1px solid #ddd; }
+.notice h4 { font-size: 14px; color: #369; }
+.notice p { fotn-size: 12px; color: #999; padding: 5px 0; line-height: 22px; }
+.tieba-tel { text-align: center; }
+/* 发表新帖 */
+.post { padding-bottom: 20px; background: #f6f6f6; }
+.post-inner { width: 700px; padding: 20px 0 0 40px; }
+.post-inner h3 { padding: 5px 10px; font-size: 15px; color: #666; }
+.post-inner h3 span { float: right; font-size: 12px; font-weight: normal; color: #999; }
+.post .box { padding: 20px; border: 1px solid #ddd; background: #fafafa; }
+.post .form-group { margin-bottom: 10px; }
+.post .form-group label { font-size: 14px; color: #999; padding: 0 10px; }
+.post .form-group input, .post .form-group select { padding: 6px 10px; border: 1px solid #ddd; }
+.post .editor { }
+.post .editor textarea { width: 95%; padding: 8px 15px; border: 1px solid #ddd; }
+.post .submit { padding: 10px; text-align: right; }
+.post .submit input { border: none; padding: 6px 20px; color: #fff; font-size: 16px; background: #faa54a; text-decoration: none; border-radius: 3px; transition: .3s; outline: none; }
+.post .submit input:hover { background: #f89427; }
+/* ----- 有话说说-详细页 ----- */
+.tieba-page { float: left; min-height: 600px; width: 780px; border-right: 1px solid #dfdfdf; background: #fff; }
+.tieba .page-title { padding: 20px; clear: both; overflow: hidden; border-bottom: 1px solid #dfdfdf; }
+.tieba .page-title h1 { width: 580px; float: left; font-size: 18px; font-weight: normal; }
+.tieba .page-title .zan { float: right; padding-top: 5px; }
+.tieba .page-title .zan a.icon1 { display: inline-block; padding: 0 10px; text-decoration: none; }
+.tieba .page-title .zan a.icon1 i { float: left; margin-right: 5px; display: inline-block; width: 16px; height: 16px; background: url(../img/tieba_icon.png) no-repeat 0 -150px; }
+.tieba .page-title .zan a.icon2 { display: inline-block; padding-left: 30px; width: 40px; line-height: 25px; height: 25px; background: url(../img/tieba_icon.png) no-repeat -38px -50px; text-decoration: none; }
+.tieba .page-cont { border-bottom: 1px solid #dfdfdf; background: #f5f7fa; }
+.tieba .page-cont .left { position: relative; float: left; width: 100px; padding: 10px; padding-top: 20px; text-align: center; }
+.tieba .page-cont .left .lz { position: absolute; top: 0; right: 0; width: 36px; height: 36px; background: url(../img/tieba_icon.png) no-repeat -50px 0; }
+.tieba .page-cont .left .pic { margin: 0 auto; width: 82px; }
+.tieba .page-cont .left .pic img { width: 78px; height: 78px; padding: 2px; border: 1px solid #ddd; }
+.tieba .page-cont .right { margin-left: 120px; border-left: 1px solid #dfdfdf; padding: 15px; background: #fff; }
+.tieba .page-cont .right p { font-size: 14px; padding: 5px; }
+.tieba .page-cont .right p img { max-width: 500px; margin-bottom: 10px; display: block; }
+.tieba .page-cont .right div { text-align: right; padding: 60px 0 0px; color: #999; }

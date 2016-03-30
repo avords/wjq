@@ -1,0 +1,57 @@
+/* ----- 会员中心 ----- */
+
+.box{padding:15px 0; background:#f9f9f9; }
+.borderNone { border:none!important;}
+
+/* 菜单 */
+.merberNav{ float:left; padding-bottom:100px; width:188px; background:#fff; border:1px solid #ddd;}
+.subNav h3{ padding:12px 20px; font-size:16px; font-weight:normal; color:#3366ad; border-top:1px solid #ddd; border-bottom:1px solid #ddd;}
+.subNav h3 a{ color:#3366ad; }
+.subNav h3 i{ float:left; display:inline-block; width:24px; height:22px; margin-right:8px; background:url(../img/member_icon.png) no-repeat;}
+.subNav h3 i.icon_1{ background-position:0 2px;}
+.subNav h3 i.icon_2{ background-position:0 -30px;}
+.subNav h3 i.icon_3{ background-position:0 -60px;}
+.subNav h3 i.icon_4{ background-position:0 -90px;}
+.subNav h3 i.icon_5{ background-position:0 -120px;}
+.subNav h3 i.icon_6{ background-position:0 -150px;}
+.subNav ul{ padding:10px 0;}
+.subNav ul li{ padding:3px 0 3px 25px; font-size:16px;}
+.subNav ul li a{ padding:3px 0 3px 26px; display:block; text-decoration:none;}
+.subNav ul li a:hover{ background:#6bcae4; color:#fff; border-radius:15px 0 0 15px;}
+
+
+.merberBody{ margin-left:202px; }
+.ind-info { padding:25px 30px; margin-bottom:15px; border:1px solid #ddd; background:#fff;}
+.ind-info dl{ height:130px;}
+.ind-info dd .cont1{ font-size:16px; padding:15px 0;}
+.ind-info dd .cont2{ font-size:14px; color:#999;}
+.ind-info dd span a{ display:inline-block; margin-bottom:-10px; margin-right:5px; width:30px; height:30px;background:url(../img/member_icon.png) no-repeat;}
+.ind-info dd span a.tb1{  background-position:-30px 0;}
+.ind-info dd span a.tb2{  background-position:-30px -40px;}
+.ind-info dd span a.tb3{  background-position:-30px -80px;}
+.ind-info .avatar { float:left; margin-right: 20px; }
+.ind-info .avatar img {  width:100px; height:100px; border-radius:50%; transition:all .3s;}
+.ind-info .avatar img:hover{ opacity:.8;}
+.ind-info .tips{ font-size:15px; padding:27px 0 10px;}
+.ind-info .tips .recharge{ padding:0 40px; color:#09c;}
+
+.ind-box{ padding:20px; margin-bottom:15px; border:1px solid #ddd; background:#fff; }
+.ind-box .title { margin-bottom:15px; font-size:18px; color:#09c;}
+.ind-box .title span{ float:right; font-size:12px; line-height:36px; padding-right:10px;}
+/*我的订单*/
+.order { width:100%;}
+.order th{ padding:10px 0; background:#f9f9f9; font-size:14px;}
+.order tr:last-child td{ border-bottom:none;}
+.order td{ padding:12px 5px; border-bottom:1px solid #eee; text-align:center;}
+.order td a{ color:#09c;}
+.order .col-width1 { width:260px;}
+.order .alignL{ text-align:left;}
+
+/*为你推荐*/
+.recommend {}
+.recommend li{ float:left; width:160px;  padding:0 14px;}
+.recommend li img{ width:160px; height:130px; transition:all .3s;}
+.recommend li img:hover{ opacity:.7;}
+.recommend li h3{ font-size:14px; padding:5px 0 8px;}
+.recommend li p{ color:#999; margin-bottom:8px;}
+.recommend li div{ text-align:center;}
